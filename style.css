@@ -19,6 +19,7 @@ body {
     font-family: 'Style Script', cursive;
     background-color: #ffe5d4ff;
     line-height: 1.5;
+    font-size: 1.7rem;
 }
 
 ul {
@@ -45,34 +46,39 @@ img {
 
 .navbar .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
     height: 100%;
 }
 
 .navbar ul {
     display: flex;
-
 }
 
 .navbar ul li {
     margin-left: 20px;
+
+}
+
+.navbar a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
 }
 
 .navbar a:hover {
-    color: aqua;
+    color: #ffe5d4ff;
 }
 
 .header {
     background-color: #68a691ff;
-    color: #fff;
     min-height: 400px;
 }
 
 
 .header img {
-    border: solid black 1px;
-    max-width: 600px;
+    padding: 10px;
+    max-width: 300px;
 
 
 }
@@ -81,20 +87,14 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid black;
+
 }
 
 .header h1 {
-    font-size: 4rem;
+    color: rgb(239, 218, 216);
+    font-size: 5rem;
     font-weight: bold;
     line-height: 1.2;
-}
-
-.title {
-    border: 1px solid black;
-    color: #efc7c2ff;
-    font-family: 'Style Script', cursive;
-    font-size: 100px;
-    /* -webkit-text-stroke: 1px white; */
-
+    text-shadow: 3px 1px 1px #000;
+    flex-wrap: wrap;
 }
