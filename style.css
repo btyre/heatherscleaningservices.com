@@ -16,7 +16,7 @@
 }
 
 body {
-    font-family: font-family: 'Style Script', cursive;
+    font-family: 'Style Script', cursive;
     background-color: #68a691ff;
 }
 
@@ -35,9 +35,7 @@ body {
     color: #efc7c2ff;
 }
 
-.header {
-   
-}
+.header {}
 
 .logo {
     color: #efc7c2ff;
