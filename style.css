@@ -1,1 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;1,300&family=Style+Script&display=swap');
 
+/* CSS HEX 
+/Color Swatches --baby-pink: #efc7c2ff;
+--champagne-pink: #ffe5d4ff;
+--cambridge-blue: #bfd3c1ff;
+--polished-pine: #68a691ff;
+--eggplant: #694f5dff;
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: font-family: 'Style Script', cursive;
+    background-color: #68a691ff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.navbar {
+    min-height: 80px;
+    background-color: champagne-pink;
+}
+
+.navbar ul {
+    color: #efc7c2ff;
+}
+
+.header {
+   
+}
+
+.logo {
+    color: #efc7c2ff;
+    font-family: 'Style Script', cursive;
+    font-size: 120px;
+    -webkit-text-stroke: 1px white;
+}
