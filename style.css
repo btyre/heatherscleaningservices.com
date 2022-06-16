@@ -35,7 +35,9 @@ body {
     color: #efc7c2ff;
 }
 
-.header {}
+.header {
+    height: 240px;
+}
 
 .logo {
     color: #efc7c2ff;
